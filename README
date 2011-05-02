@@ -1,0 +1,14 @@
+Fractal image viewer
+
+Description
+Qt cross-platform application that displays some fractals. 
+
+Features
+* Supported fractals: 
+  * Mandelbrot
+  * Julia fractal
+
+* Supported color schemes:
+  * RGB color scheme
+  * RGB Band color scheme
+  * HSV color scheme

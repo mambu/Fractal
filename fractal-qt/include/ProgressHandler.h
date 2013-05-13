@@ -26,7 +26,7 @@ THE SOFTWARE.
 #define	_PROGRESSHANDLER_H
 
 #include "IProgress.h"
-#include <qt4/Qt/qprogressbar.h>
+#include <QProgressBar>
 
 class ProgressHandler : public IProgress
 {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="62">
-  <logicalFolder name="root" displayName="root" projectFiles="true">
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
@@ -55,12 +55,12 @@
   <confs>
     <conf name="Debug" type="4">
       <toolsSet>
-        <developmentServer>localhost</developmentServer>
         <compilerSet>GNU|GNU</compilerSet>
-        <platform>2</platform>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <qt>
-        <modules>core gui</modules>
+        <modules>core gui widgets</modules>
       </qt>
       <compileType>
         <ccTool>
@@ -68,21 +68,81 @@
             <pElem>include</pElem>
           </incDir>
         </ccTool>
-        <linkerTool>
-          <linkerLibItems>
-          </linkerLibItems>
-        </linkerTool>
       </compileType>
+      <item path="include/AboutForm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ColorSchemeFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ColorSchemeRegister.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Fractal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/FractalAlgo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/FractalForm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/HsvColorScheme.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/IColorScheme.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/IDraw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/IProgress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ImageDraw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Julia.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/MainWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Mandelbrot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ProgressHandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RgbBandColorScheme.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RgbColorScheme.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="res/AboutForm.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="res/FractalForm.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="res/MainWindow.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/AboutForm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ColorSchemeFactory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Fractal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/FractalForm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/HsvColorScheme.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Julia.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MainWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Mandelbrot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/RgbBandColorScheme.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/RgbColorScheme.cpp" ex="false" tool="1" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="4">
       <toolsSet>
-        <developmentServer>localhost</developmentServer>
         <compilerSet>GNU|GNU</compilerSet>
-        <platform>2</platform>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <qt>
         <buildMode>1</buildMode>
-        <modules>core gui</modules>
+        <modules>core gui widgets</modules>
       </qt>
       <compileType>
         <cTool>
@@ -97,11 +157,71 @@
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>
         </fortranCompilerTool>
-        <linkerTool>
-          <linkerLibItems>
-          </linkerLibItems>
-        </linkerTool>
       </compileType>
+      <item path="include/AboutForm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ColorSchemeFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ColorSchemeRegister.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Fractal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/FractalAlgo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/FractalForm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/HsvColorScheme.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/IColorScheme.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/IDraw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/IProgress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ImageDraw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Julia.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/MainWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Mandelbrot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ProgressHandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RgbBandColorScheme.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RgbColorScheme.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="res/AboutForm.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="res/FractalForm.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="res/MainWindow.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/AboutForm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ColorSchemeFactory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Fractal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/FractalForm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/HsvColorScheme.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Julia.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MainWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Mandelbrot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/RgbBandColorScheme.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/RgbColorScheme.cpp" ex="false" tool="1" flavor2="0">
+      </item>
     </conf>
   </confs>
 </configurationDescriptor>

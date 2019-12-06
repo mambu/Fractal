@@ -7,8 +7,8 @@
 #include "Julia.h"
 #include "ProgressHandler.h"
 #include <qimage.h>
-#include <QGraphicsPixmapItem>
-#include <QFileDialog>
+#include <QtWidgets/QGraphicsPixmapItem>
+#include <QtWidgets/QFileDialog>
 
 FractalForm::FractalForm(QWidget* parent)
   : QWidget(parent)

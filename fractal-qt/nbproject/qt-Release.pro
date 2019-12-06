@@ -1,16 +1,19 @@
+# This file is generated automatically. Do not edit.
+# Use project properties -> Build -> Qt -> Expert -> Custom Definitions.
 TEMPLATE = app
-DESTDIR = dist/Release/GNU-Linux-x86
+DESTDIR = dist/Release/GNU-Linux
 TARGET = fractal-qt
 VERSION = 1.0.0
 CONFIG -= debug_and_release app_bundle lib_bundle
 CONFIG += release 
-QT = core gui
-SOURCES += src/MainWindow.cpp src/HsvColorScheme.cpp src/Fractal.cpp main.cpp src/RgbBandColorScheme.cpp src/FractalForm.cpp src/Julia.cpp src/Mandelbrot.cpp src/AboutForm.cpp src/ColorSchemeFactory.cpp src/RgbColorScheme.cpp
-HEADERS += include/Julia.h include/AboutForm.h include/FractalForm.h include/Mandelbrot.h include/ColorSchemeFactory.h include/Fractal.h include/IDraw.h include/RgbColorScheme.h include/MainWindow.h include/ColorSchemeRegister.h include/FractalAlgo.h include/IProgress.h include/ImageDraw.h include/RgbBandColorScheme.h include/IColorScheme.h include/Point.h include/ProgressHandler.h include/HsvColorScheme.h
-FORMS += res/MainWindow.ui res/FractalForm.ui res/AboutForm.ui
+PKGCONFIG +=
+QT = core gui widgets
+SOURCES += main.cpp src/AboutForm.cpp src/ColorSchemeFactory.cpp src/Fractal.cpp src/FractalForm.cpp src/HsvColorScheme.cpp src/Julia.cpp src/MainWindow.cpp src/Mandelbrot.cpp src/RgbBandColorScheme.cpp src/RgbColorScheme.cpp
+HEADERS += include/AboutForm.h include/ColorSchemeFactory.h include/ColorSchemeRegister.h include/Fractal.h include/FractalAlgo.h include/FractalForm.h include/HsvColorScheme.h include/IColorScheme.h include/IDraw.h include/IProgress.h include/ImageDraw.h include/Julia.h include/MainWindow.h include/Mandelbrot.h include/Point.h include/ProgressHandler.h include/RgbBandColorScheme.h include/RgbColorScheme.h
+FORMS += res/AboutForm.ui res/FractalForm.ui res/MainWindow.ui
 RESOURCES +=
 TRANSLATIONS +=
-OBJECTS_DIR = build/Release/GNU-Linux-x86
+OBJECTS_DIR = build/Release/GNU-Linux
 MOC_DIR = 
 RCC_DIR = 
 UI_DIR = 
